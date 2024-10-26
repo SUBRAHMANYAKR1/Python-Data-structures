@@ -259,7 +259,7 @@ for i in range(len(value)):
 # link.insertAtBegin(1)
 # link.insertAtBegin(2)
 # link.insertAtBegin(3)
-# link.printLL()  # Output: 3 2 1
+# link.printLL()  
 
 
 class node:
