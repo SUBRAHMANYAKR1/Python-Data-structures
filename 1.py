@@ -14,37 +14,36 @@ for i in range(len(value)):
         print(f"number {num} is found at index {i}")
 
 
-# class node:
-#     def __init__(self ,data):
-#         self.data=data
-#         self.next=None
-# class linklist:
-#     def __init__(self):
-#         self.head=None
-#     def app(self,data):
-#         new_node=node(data)
-#         if self.head is None:
-#             self.head=new_node
-#             return
-#         last=self.head
-#         while last.next:
-#             last=last.next
-#         last.next=new_node
-#     def print(self):
-#         temp=self.head
-#         while temp:
-#             print(temp.data,end="-->")
-#             temp=temp.next
-#         print("None")
+ class node:
+   def __init__(self ,data):
+         self.data=data
+         self.next=None
+ class linklist:
+     def __init__(self):
+         self.head=None
+     def app(self,data):
+         new_node=node(data)
+         if self.head is None:
+             self.head=new_node
+             return
+         last=self.head
+         while last.next:
+             last=last.next
+         last.next=new_node
+     def print(self):
+         temp=self.head
+         while temp:
+             print(temp.data,end="-->")
+             temp=temp.next
+         print("None")
 
 
-# list=linklist()
-# list.app(10)
-# list.app(16)
-# list.app(17)
-# list.app(18)
-
-# list.print()
+ list=linklist()
+ list.app(10)
+ list.app(16)
+ list.app(17)
+ list.app(18)
+ list.print()
 
 
 
